@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="train.css">
+    <title>Journey Details</title>
+</head>
+
+<body>
+    <p class="created">Logged in successfully!</p>
+    <div class="container">
+        <h1 class="heading">Journey Details</h1>
+        <form method="POST" action="train.php">
+            <div class="form-group">
+                <label>Train Name</label>
+                <input type="text" class="form-control" placeholder="Shatabdi" name="train_name">
+            </div>
+            <div class="form-group">
+                <label>Train Class</label>
+                <input type="text" class="form-control" placeholder="General Class" name="train_class">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>From</label>
+                    <input type="text" class="form-control" placeholder="MYS" maxlength="3" name="from_station">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>To</label>
+                    <input type="text" class="form-control"" placeholder=" KSR" maxlength="3" name="to_station">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Day</label>
+                    <input type="number" class="form-control" placeholder="1-31" min="1" max="31" name="d_day">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Month</label>
+                    <input type="text" class="form-control" placeholder="August" maxlength="10" name="d_month">
+                </div>
+            </div>
+            <div class="form-group">
+                <label id="review">Review</label>
+                ​<textarea id="txtArea" name="review" rows="7" cols="94"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Rating</label>
+                <input type="number" class="form-control" placeholder="1-10" min="1" max="10" name="rating">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

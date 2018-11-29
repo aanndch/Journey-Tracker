@@ -1,0 +1,25 @@
+body {
+    background-image: url("rail.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin-top: 150px;
+    width: 50%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.heading {
+    text-align: center;
+    padding: 15px 0 20px 0;
+}
+
+.btn {
+    width: 125px;
+}

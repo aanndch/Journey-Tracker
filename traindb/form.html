@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Journey Tracker</h1>
+        <form method="POST" action="form.php">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="example@gmail.com" name="email">
+            </div>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" placeholder="JohnDoe" name="username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="*******"
+                    name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

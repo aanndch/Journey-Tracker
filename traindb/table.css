@@ -1,0 +1,36 @@
+body {
+    background: #f4f4f4;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+
+th {
+    font-size: 20px;
+}
+
+.not_middle {
+    text-align: left;
+}
+
+td, th {
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+    border: 2px black solid;
+}
+
+.btn {
+    width: 328px;;
+}
+
+.a-mar {
+    display: inline-block;
+    margin: 20px;
+}
+
